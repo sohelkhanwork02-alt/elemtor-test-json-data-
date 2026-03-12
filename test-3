@@ -1,0 +1,60 @@
+{
+  "title": "SaaS Product Hero",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "section_saas_hero",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f5f7ff",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "bottom": "120"
+        }
+      },
+      "elements": [
+        {
+          "id": "column_hero",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "heading_saas",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Powerful SaaS Platform",
+                "align": "center"
+              }
+            },
+            {
+              "id": "text_saas",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Manage your business with our modern SaaS platform."
+              }
+            },
+            {
+              "id": "button_saas",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Start Free Trial",
+                "link": {
+                  "url": "#"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
