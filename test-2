@@ -1,0 +1,47 @@
+{
+  "title": "Creative Portfolio Section",
+  "type": "section",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "portfolio-section",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "portfolio-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "portfolio-title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Latest Work",
+                "align": "center"
+              }
+            },
+            {
+              "id": "portfolio-gallery",
+              "elType": "widget",
+              "widgetType": "image-gallery",
+              "settings": {
+                "columns": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
