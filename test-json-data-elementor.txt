@@ -1,0 +1,69 @@
+{
+  "title": "Startup Hero Section",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A2540",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "120",
+          "left": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "heading1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Build Your Startup Faster",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                }
+              }
+            },
+            {
+              "id": "text1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Launch your product with our powerful startup landing page template.",
+                "align": "center"
+              }
+            },
+            {
+              "id": "button1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get Started",
+                "align": "center",
+                "link": {
+                  "url": "#"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
