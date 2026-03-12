@@ -1,0 +1,75 @@
+{
+  "version": "0.4",
+  "title": "Modern Startup Hero",
+  "type": "page",
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "content_width": "boxed",
+        "padding": {
+          "unit": "px",
+          "top": "120",
+          "bottom": "120"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-column",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "heading-widget",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Build Your Dream Website",
+                "size": "xxl",
+                "align": "center"
+              }
+            },
+            {
+              "id": "text-widget",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Create beautiful websites with this modern Elementor template. Perfect for startups and agencies."
+              }
+            },
+            {
+              "id": "button-widget",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get Started",
+                "size": "lg",
+                "align": "center",
+                "link": {
+                  "url": "https://example.com"
+                }
+              }
+            },
+            {
+              "id": "image-widget",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200"
+                },
+                "align": "center"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "exported_at": "2026-03-12"
+}
