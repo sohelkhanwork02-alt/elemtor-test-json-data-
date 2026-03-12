@@ -1,0 +1,48 @@
+{
+ "version":"0.4",
+ "title":"SaaS Product Landing",
+ "type":"page",
+ "content":[
+  {
+   "id":"section1",
+   "elType":"section",
+   "settings":{"layout":"full_width"},
+   "elements":[
+    {
+     "id":"column1",
+     "elType":"column",
+     "settings":{"_column_size":100},
+     "elements":[
+      {
+       "id":"heading1",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{
+        "title":"Powerful SaaS Platform",
+        "align":"center",
+        "size":"xl"
+       }
+      },
+      {
+       "id":"text1",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{
+        "editor":"Manage your business with our powerful SaaS tools."
+       }
+      },
+      {
+       "id":"button1",
+       "elType":"widget",
+       "widgetType":"button",
+       "settings":{
+        "text":"Start Free Trial",
+        "align":"center"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
