@@ -1,0 +1,50 @@
+{
+ "version":"0.4",
+ "title":"Digital Agency Hero",
+ "type":"page",
+ "content":[
+  {
+   "id":"agency-section",
+   "elType":"section",
+   "settings":{
+    "layout":"full_width",
+    "padding":{"top":"100","bottom":"100"}
+   },
+   "elements":[
+    {
+     "id":"agency-column",
+     "elType":"column",
+     "settings":{"_column_size":100},
+     "elements":[
+      {
+       "id":"heading",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{
+        "title":"We Build Digital Experiences",
+        "size":"xxl",
+        "align":"center"
+       }
+      },
+      {
+       "id":"text",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{
+        "editor":"Creative digital agency helping brands grow online."
+       }
+      },
+      {
+       "id":"button",
+       "elType":"widget",
+       "widgetType":"button",
+       "settings":{
+        "text":"View Our Work"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
