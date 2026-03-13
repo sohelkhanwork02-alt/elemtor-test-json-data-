@@ -1,0 +1,76 @@
+{
+ "version":"0.4",
+ "title":"NextGen SaaS Platform",
+ "type":"page",
+ "content":[
+  {
+   "id":"hero-saas",
+   "elType":"section",
+   "settings":{"layout":"full_width"},
+   "elements":[
+    {
+     "id":"hero-column",
+     "elType":"column",
+     "settings":{"_column_size":100},
+     "elements":[
+      {
+       "id":"heading",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{
+        "title":"All-in-One Business Software",
+        "size":"xl",
+        "align":"center"
+       }
+      },
+      {
+       "id":"desc",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{
+        "editor":"Manage CRM, analytics, and marketing in one powerful platform."
+       }
+      },
+      {
+       "id":"cta",
+       "elType":"widget",
+       "widgetType":"button",
+       "settings":{
+        "text":"Start Free Trial"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id":"pricing",
+   "elType":"section",
+   "elements":[
+    {
+     "id":"pricing-column",
+     "elType":"column",
+     "settings":{"_column_size":100},
+     "elements":[
+      {
+       "id":"pricing-title",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{
+        "title":"Simple Pricing"
+       }
+      },
+      {
+       "id":"price-text",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{
+        "editor":"Starter $19/mo | Pro $49/mo | Enterprise $99/mo"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
