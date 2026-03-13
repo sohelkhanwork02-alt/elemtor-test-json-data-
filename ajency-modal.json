@@ -1,0 +1,115 @@
+{
+ "version":"0.4",
+ "title":"Creative Agency Landing",
+ "type":"page",
+ "content":[
+  {
+   "id":"hero1",
+   "elType":"section",
+   "settings":{
+    "layout":"full_width",
+    "padding":{"top":"120","bottom":"120"}
+   },
+   "elements":[
+    {
+     "id":"hero-col",
+     "elType":"column",
+     "settings":{"_column_size":100},
+     "elements":[
+      {
+       "id":"heading1",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{
+        "title":"We Create Amazing Digital Products",
+        "size":"xxl",
+        "align":"center"
+       }
+      },
+      {
+       "id":"text1",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{
+        "editor":"Our agency helps brands grow with modern design and technology."
+       }
+      },
+      {
+       "id":"button1",
+       "elType":"widget",
+       "widgetType":"button",
+       "settings":{
+        "text":"Start Your Project",
+        "align":"center"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id":"features",
+   "elType":"section",
+   "settings":{"content_width":"boxed"},
+   "elements":[
+    {
+     "id":"col1",
+     "elType":"column",
+     "settings":{"_column_size":33},
+     "elements":[
+      {
+       "id":"feature1",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{"title":"UI/UX Design"}
+      },
+      {
+       "id":"textf1",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{"editor":"Beautiful and intuitive user experiences."}
+      }
+     ]
+    },
+    {
+     "id":"col2",
+     "elType":"column",
+     "settings":{"_column_size":33},
+     "elements":[
+      {
+       "id":"feature2",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{"title":"Web Development"}
+      },
+      {
+       "id":"textf2",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{"editor":"Fast and scalable web applications."}
+      }
+     ]
+    },
+    {
+     "id":"col3",
+     "elType":"column",
+     "settings":{"_column_size":33},
+     "elements":[
+      {
+       "id":"feature3",
+       "elType":"widget",
+       "widgetType":"heading",
+       "settings":{"title":"Marketing"}
+      },
+      {
+       "id":"textf3",
+       "elType":"widget",
+       "widgetType":"text-editor",
+       "settings":{"editor":"Data driven digital marketing strategies."}
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
